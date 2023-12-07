@@ -20,3 +20,17 @@
         @apply text-secondary
     }
 }
+
+::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #fff;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #4fb7dd;
+    border-radius: 1rem;
+    background-clip: content-box;
+  }

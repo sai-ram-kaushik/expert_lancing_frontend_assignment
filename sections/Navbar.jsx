@@ -10,7 +10,7 @@ const Navbar = () => {
     setNav(!nav)
   }
   return (
-    <nav className="w-full h-20 z-[999] bg-background">
+    <nav className="w-full h-20 z-[999]">
       <div className="container mx-auto w-full h-full">
         <div className="flex items-center justify-between w-full h-full px-5 lg:px-0">
           {/* logo */}

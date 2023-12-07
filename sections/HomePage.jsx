@@ -1,10 +1,14 @@
 import HomePageVector from '@/public/assets/homePageVector.svg'
 import { FaApple, FaGooglePlay } from "react-icons/fa";
 import Image from 'next/image'
+import ellipse from '@/public/assets/ellipse.svg'
 import Button from '@/components/Button';
+import TransitionEffect from '@/components/TransitionEffect';
 const HomePage = () => {
     return (
-        <section className="w-full h-[85vh] p-5">
+        <section className="w-full h-[85vh] p-5 lg:p-0">
+            <TransitionEffect />
+            <Image src={ellipse} className='absolute top-0' />
             <div className="container mx-auto w-full h-full">
                 <div className="flex flex-col lg:flex-row items-center justify-center gap-10 w-full h-full">
                     {/* Left side */}
